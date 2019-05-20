@@ -1,0 +1,31 @@
+{
+  "name": "storybook-react-to-static-markup",
+  "version": "0.0.1",
+  "description": "A storybook addon which shows static markup of react components",
+  "author": "Ole Treichel",
+  "license": "MIT",
+  "scripts": {
+    "build": "rm -rf ./dist && node ./npm-prepare.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ole-treichel/storybook-react-to-static-markup.git"
+  },
+  "private": false,
+  "main": "dist/index.js",
+  "dependencies": {
+    "@storybook/addons": "5.0.11",
+    "@storybook/components": "5.0.11",
+    "@storybook/core-events": "5.0.11",
+    "prismjs": "^1.16.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.4",
+    "@babel/plugin-proposal-class-properties": "^7.4.4",
+    "@babel/preset-env": "^7.4.4",
+    "@babel/preset-react": "^7.0.0",
+    "chalk": "^2.4.2",
+    "shelljs": "^0.8.3"
+  }
+}
