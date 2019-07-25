@@ -21,7 +21,3 @@ import { withStaticMarkup } from 'storybook-react-to-static-markup'
 ```
 
 > The decorator should **preceed all other decorators** (such as `withInfo`). Otherwise the markup will contain the markup of the other decorators.
-
-## Todo
-
-[ ] Add html formatter
