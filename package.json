@@ -18,7 +18,8 @@
     "@storybook/components": "5.0.11",
     "@storybook/core-events": "5.0.11",
     "pretty": "^2.0.0",
-    "prismjs": "^1.16.0"
+    "prismjs": "^1.16.0",
+    "lodash": ">=4.17.13"
   },
   "devDependencies": {
     "@babel/cli": "^7.4.4",
