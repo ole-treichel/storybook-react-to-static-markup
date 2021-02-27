@@ -1,6 +1,6 @@
 {
   "name": "storybook-react-to-static-markup",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A storybook addon which shows static markup of react components",
   "author": "Ole Treichel",
   "license": "MIT",
