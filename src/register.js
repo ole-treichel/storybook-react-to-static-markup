@@ -154,7 +154,7 @@ class StaticMarkupPanel extends React.Component {
     markup: null
   }
   onReceivedMarkup = markup => {
-    const highlightedMarkup = Prism.highlight(markup, Prism.languages.markup, 'markup')
+    const highlightedMarkup = Prism.highlight(markup.toString(), Prism.languages.markup, 'markup')
     this.setState({
       markup: highlightedMarkup
     })
